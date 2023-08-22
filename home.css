@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Bree+Serif&family=Great+Vibes&family=Lilita+One&family=Work+Sans&display=swap');
+
+body{
+    background: url("https://img.freepik.com/premium-vector/floral-background_181182-26281.jpg");
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 100vh;
+    font-family: 'Black Ops One', cursive;
+
+}  
+.container{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.heading{
+    margin-top: 5vh;
+    color:white;
+    font-size: 60px;
+} 
+.input-container{
+    width: 100%;
+    text-align: center;
+}
+
+.input-field{
+    width: 25%;
+    height: 40px;
+    border: 3px solid #b37e02;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+input:focus, button:focus{
+    outline: none
+}
+.button-submit{
+    width: 5%;
+    height: 45px;
+    border-radius: 20px;
+    background-color:  #b37e02;
+    font-weight: bold;
+    position: absolute;
+    margin-left: -4%;
+    font-size: 18px;
+}
+h2{
+    font-size: 28px;
+}
+
+.hint{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+.list-container{
+    width: 100%;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    color : #13243E;
+}
+
+.list{
+    width: 30%;
+    list-style-type: none;
+    border: 1px solid #828282;
+    margin-left: 33%;
+    text-align: start;
+    padding: 1%;
+    margin-top: 1%;
+    border-radius: 25px;
+    color : #13243E;
+}
+.checked{
+    float: right;
+}
+
+.button-reset{
+    width: 15%;
+    height: 5.8vh;
+    border-radius: 20px;
+    border: 1px solid #b37e02;
+    background-color: #b37e02;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 5%;
+}
+
+.footer > a{
+    color: black;
+}
+
